@@ -1,3 +1,8 @@
+import keyword
+
+file_name = "file1", "file2", "file3", "file4", "file5", "file6", "file7", "file8", "file9", "file10", "file11", "file12", "file13", "file14", "file15", "file16", "file17", "file18", "file19", "file20"]
+name = ["alpha", "sleep", "mystery", "fury", "nostalgia", "fault", "family", "fracture", "insanity", "wisdom", "infinity", "kindness", "genesis", "storm", "challenge", "headache", "sorrow", "jest", "omega", "technetium"]
+page = [pg1, pg2, pg3, pg4, pg5, pg6, pg7, pg8, pg9, pg10, pg11, pg12, pg13, pg14, pg15, pg16, pg17, pg18, pg19, pg20]
 pg1 = 0
 pg2 = 0
 pg3 = 0
@@ -39,34 +44,15 @@ def files(x):
   global pg18
   global pg19
   global pg20
-  if x == "alpha":
-    if pg1 == 0:
-      print("Displaying file 1 of 20 (ALPHA). File renamed 'file1' for convenience.")
-      pg1 += 1
+  if x in name:
+    n = name.index[x]
+    if page[n] = 0:
+      print("Displaying file %d of 20 (%s). File named 'file%d' for convenience." % (n + 1, x, n + 1))
+      page[n] += 1
     else:
-      print("Displaying file 1 of 20 (ALPHA).")
-    print("[Konami] The chatroom is set up. Let the games begin.
-    [Basilisk] Woohoo!
-    [randint] :D
-    [-] ... ..- .--.
-    [L’Erreur_Du_Parrier] Bonjour, existe-t-il une option pour changer de langue sur ce site?
-    [Konami] Je suis désolé, nous ne prenons pas en charge les traductions.
-    [Konami] Mais vous pouvez toujours taper votre langue, et nous pouvons la traduire nous-mêmes! 😊
-    [L’Erreur_Du_Parrier] D'accord, merci!
-    [Konami] J'espère que mon français va bien, je ne l'ai pas pris depuis le lycée 😅
-    [L’Erreur_Du_Parrier] Ne vous inquiétez pas, c'est bon!
-    [MikeRotch] was here
-    [FederalBureauofI] Hey, I’m part of the OG thread too!
-    [trollolol] was here
-    [Dimentio] leaves his mark
-    [harambe] was here
-    [cereal_killer] was here")
-  elif x == "file1":
-    if pg1 == 0:
-      print("File name not recognized.")
-    else:
-      print("Displaying file 1 of 20.
-      [Konami] The chatroom is set up. Let the games begin.
+      print("Displaying file %d of 20 (%s)." % (n + 1, x))
+    if n == 0:
+      print("[Konami] The chatroom is set up. Let the games begin.
       [Basilisk] Woohoo!
       [randint] :D
       [-] ... ..- .--.
@@ -82,34 +68,8 @@ def files(x):
       [Dimentio] leaves his mark
       [harambe] was here
       [cereal_killer] was here")
-  elif x == "sleep":
-    if pg2 == 0:
-      print("Displaying file 2 of 20 (SLEEP). File renamed 'file2' for convenience.")
-      pg2 += 1
-    else:
-      print("Displaying file 2 of 20 (SLEEP).")
-    print("[Konami] Anyway, my part is done, soo… see y’all later? Maybe?
-    [Konami] Or not.
-    [Basilisk] No, don’t leave us!
-    [Konami] I will always be with you!
-    [Konami] In fact, I just set my password to something *extremely* obvious so that you can impersonate me.
-    [Konami] Peace!
-    [randint] Something extremely obvious…
-    [randint] …Annnd I got it. :D
-    [Konami] /me is resurrected!
-    [Basilisk] Bittersweet victory ;c
-    [Konami] Now I have their password too c:
-    [Konami] :D
-    [Konami] konami gang!
-    [Konami] lmao really
-    [Konami] it was that simple
-    [Konami] it was like thirty tries before i got it")
-  elif x == "file2":
-    if pg2 == 0:
-      print("File name not recognized.")
-    else:
-      print("Displaying file 2 of 20.
-      [Konami] Anyway, my part is done, soo… see y’all later? Maybe?
+    elif n == 1:
+      print("[Konami] Anyway, my part is done, soo… see y’all later? Maybe?
       [Konami] Or not.
       [Basilisk] No, don’t leave us!
       [Konami] I will always be with you!
@@ -125,28 +85,8 @@ def files(x):
       [Konami] lmao really
       [Konami] it was that simple
       [Konami] it was like thirty tries before i got it")
-  elif x == "mystery":
-    if pg3 == 0:
-      print("Displaying file 3 of 20 (MYSTERY). File renamed 'file3' for convenience.")
-      pg3 += 1
-    else:
-      print("Displaying file 3 of 20 (MYSTERY).
-    print("[your username here:] ‘sup?
-    [your username here:] this place seems cool.
-    [randint] …How did you even type that username? It didn’t permit me to use a space.
-    [your username here:] i have my ways.
-    [randint] …
-    [your username here:] eh, i’ll tell you in person later.
-    [randint] …Do I know you…?
-    [your username here:] ¯\_(ツ)_/¯
-    [lazybones] ‘sup
-    [randint] @lazybones re: challenge: Is this seriously your only mention on this website? And what kind of hint do you have? This is going to be a bit more difficult than expected…")
-  elif x == "file3":
-    if pg3 == 0:
-      print("File name not recognized.")
-    else:
-      print("Displaying file 3 of 20.
-      [your username here:] ‘sup?
+    elif n == 2:
+      print("[your username here:] ‘sup?
       [your username here:] this place seems cool.
       [randint] …How did you even type that username? It didn’t permit me to use a space.
       [your username here:] i have my ways.
@@ -156,30 +96,8 @@ def files(x):
       [your username here:] ¯\_(ツ)_/¯
       [lazybones] ‘sup
       [randint] @lazybones re: challenge: Is this seriously your only mention on this website? And what kind of hint do you have? This is going to be a bit more difficult than expected…")
-  elif x == "fury":
-    if pg4 == 0:
-      print("Displaying file 4 of 20 (FURY). File renamed 'file4' for convenience.")
-      pg4 += 1
-    else:
-      print("Displaying file 4 of 20 (FURY).")
-    print("[internallyscreaming] hey, whar’s up with lurklurk?
-    [randint] They change their onscreen username to communicate.
-    [internallyscreaming] *what’s
-    [internallyscreaming] oh, I see.
-    [internallyscreaming] @lurklurk whats ur password?
-    [internallyscreaming] fair point
-    [internallyscreaming] but
-    [internallyscreaming] id like to know
-    [internallyscreaming] that didnt work
-    [internallyscreaming] liae
-    [randint] It’s generally against common etiquette to try to make someone give you their password.
-    [internallyscreaming] fine")
-  elif x == "file4":
-    if pg4 == 0:
-      print("File name not recognized.")
-    else:
-      print("Displaying file 4 of 20.
-      [internallyscreaming] hey, whar’s up with lurklurk?
+    elif n == 3:
+      print("[internallyscreaming] hey, whar’s up with lurklurk?
       [randint] They change their onscreen username to communicate.
       [internallyscreaming] *what’s
       [internallyscreaming] oh, I see.
@@ -191,47 +109,14 @@ def files(x):
       [internallyscreaming] liae
       [randint] It’s generally against common etiquette to try to make someone give you their password.
       [internallyscreaming] fine")
-  elif x == "nostalgia":
-    if pg5 == 0:
-      print("Displaying file 5 of 20 (NOSTALGIA). File renamed 'file5' for convenience.")
-      pg5 += 1
-    else:
-      print("Displaying file 5 of 20 (NOSTALGIA).
-    print("[Basilisk] Anyone up for an RPG?
-    [Iridescent] Maybe later, that sounds fun!
-    [Basilisk] OK! c:
-    [FederalBureauofI] Count me in, too!
-    [Basilisk] Yay!")
-  elif x == "file5":
-    if pg5 == 0:
-      print("File name not recognized.")
-    else:
-      print("Displaying file 5 of 20.
-      [Basilisk] Anyone up for an RPG?
+    elif n == 4:
+      print("[Basilisk] Anyone up for an RPG?
       [Iridescent] Maybe later, that sounds fun!
       [Basilisk] OK! c:
       [FederalBureauofI] Count me in, too!
       [Basilisk] Yay!")
-  elif x == "fault":
-    if pg6 == 0:
-      print("Displaying file 6 of 20 (FAULT). File renamed 'file6' for convenience.")
-      pg6 += 1
-    else:
-      print("Displaying file 6 of 20 (FAULT).")
-    print("[Level_256] Wazzup?
-    [internallyscreaming] Howsyt!
-    [internallyscreaming] *howdy
-    [nyan_cat] Howsyt!
-    [internallyscreaming] shut up
-    [applebottomjeans] Howsyt!
-    [internallyscreaming] SHUTUPSHUTUPSHUTUP
-    [randint] Oh, look, now you’re externally screaming.")
-  elif x == "file6":
-    if pg6 == 0:
-      print("File name not recognized.")
-    else:
-      print("Displaying file 6 of 20."
-      [Level_256] Wazzup?
+    elif n == 5:
+      print("[Level_256] Wazzup?
       [internallyscreaming] Howsyt!
       [internallyscreaming] *howdy
       [nyan_cat] Howsyt!
@@ -239,34 +124,8 @@ def files(x):
       [applebottomjeans] Howsyt!
       [internallyscreaming] SHUTUPSHUTUPSHUTUP
       [randint] Oh, look, now you’re externally screaming.")
-  elif x == "family":
-    if pg7 == 0:
-      print("Displaying file 7 of 20 (FAMILY). File renamed 'file7' for convenience.")
-      pg7 += 1
-    else:
-      print("Displaying file 7 of 20 (FAMILY).")
-    print("[L’Erreur_Du_Parrier] Mon fils vient d'avoir neuf ans aujourd'hui!
-    [Basilisk] Congrats!
-    [Basilisk] Can we see a picture?
-    <L’Erreur_Du_Parrier shared a temporary photo>
-    [internallyscreaming] does ur son know english
-    [L’Erreur_Du_Parrier] Oui, il fréquente une école publique anglophone.
-    [internallyscreaming] i think i know him
-    [internallyscreaming] he goes to my school
-    [L’Erreur_Du_Parrier] O-O
-    [internallyscreaming] i think ill go say hi to him now
-    [randint] O_O
-    [Basilisk] This is awesome!
-    [L’Erreur_Du_Parrier] Mise à jour: Antoine est rentré à la maison et m'a dit qu'il avait eu une belle conversation avc quelqu'un qui s'appelait «criantintérieurement»!
-    [internallyscreaming] awesome
-    [Basilisk] 💜
-    [EtchingForAction] Beautiful.")
-  elif x == "file7":
-    if pg7 == 0:
-      print("File name not recognized.")
-    else:
-      print("Displaying file 7 of 20.
-      [L’Erreur_Du_Parrier] Mon fils vient d'avoir neuf ans aujourd'hui!
+    elif n == 6:
+      print("[L’Erreur_Du_Parrier] Mon fils vient d'avoir neuf ans aujourd'hui!
       [Basilisk] Congrats!
       [Basilisk] Can we see a picture?
       <L’Erreur_Du_Parrier shared a temporary photo>
@@ -281,4 +140,177 @@ def files(x):
       [L’Erreur_Du_Parrier] Mise à jour: Antoine est rentré à la maison et m'a dit qu'il avait eu une belle conversation avc quelqu'un qui s'appelait «criantintérieurement»!
       [internallyscreaming] awesome
       [Basilisk] 💜
-      [EtchingForAction] Beautiful.
+      [EtchingForAction] Beautiful.")
+    elif n == 7:
+      print("[Basilisk] @Iridescent @FederalBureauofI Are you guys ready?
+      [FederalBureauofI] Nah, I gotta get back to work. Maybe tomorrow?
+      [Basilisk] Sure!
+      [Iridescent] :(
+      [Iridescent] I go on a camping trip tomorrow, I won’t be back until Tuesday.
+      [Basilisk] Don’t worry, we’ll figure it out. c:
+      [Iridescent] c:
+      [FederalBureauofI] c:")
+    elif n == 8:
+      print("[trollolol] lololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololol
+      [randint] Welcome?
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      [FederalBureauofI] Please stop.
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      [randint] One second…
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      <trollolol has been shadowbanned by Konami.>
+      [Konami] I’m still worthy! :D
+      [FederalBureauofI] *applause*")
+    elif n == 9:
+      print("[-] .-- .... .- - / .. ... / - .... . / .- -. ... .-- . .-. / - --- / .-.. .. ..-. .
+      [randint] 42, of course.
+      [Iridescent] You can read Morse?
+      [randint] Yep.
+      [Iridescent] That’s cool! Can you tech me?
+      [Iridescent] *teach
+      [randint] Sure, just look at the patterns and memorize the letters that go next to them. :P
+      [xkcd] Here’s a chart to help you out:
+      <xkcd shared a temporary image.>
+      [Iridescent] Wow, did you make that yourself?
+      [Iridescent] Your handwriting is really nice :)
+      [xkcd] Thank you!
+      [Iridescent] Mine’s so terrible, I just copied this down and can’t tell the difference between lines and dashes anymore lol
+      [xkcd] Well, whatever works.
+      [Iridescent] I guess?")
+    elif n == 10:
+      print("[Basilisk] @randint How are you always online? You’re in like every thread on here.
+      [randint] It’s a full-time commitment.
+      [Basilisk] Do you even have a job?
+      [Basilisk] Or wait, let me guess, you’re too ‘enigmatic’ to tell me?
+      [randint] ¯\_(ツ)_/¯
+      [Basilisk] *grumbles*")
+    elif n == 11:
+      print("[randint] Lemme just check something out real quick…
+      [Konami] /me reappears!
+      [Konami] Just changed a bit of the library… and…
+      [totallyunsecuretest] /me is born
+      [Konami] Success!
+      [Konami] I’ve created a guest login for people who aren’t quite sure enough about this site to log in as an actual user.
+      [Konami] Hopefully this should encourage more activity.
+      [randint] /me transforms back")
+    elif n == 12:
+      print("[randint] Hey, I wonder if I can create bots on here.
+      [randint] Just a moment…
+      [Basilisk] :o
+      [randint] …And my library won’t cooperate.
+      [randint] This site’s structure is *ancient*.
+      [randint] I would actually need to make an account for a bot to exist.
+      [randint] /me has an idea…
+      [randint] Ta-da!
+      [BotBot] /me initiates
+      [randint] BotBot can take inputs and create bots from them using this syntax:
+      <randint shared a temporary image.>
+      [Basilisk] Jesus Christ, that’s some complicated syntax.
+      [Basilisk] This isn’t even legible.
+      [Basilisk] Noooo thank you.
+      [randint] ¯\_(ツ)_/¯")
+    elif n == 13:
+      print("[404UsernameNotFound] Hello!
+      [404UsernameNotFound] I’m new here.
+      [404UsernameNotFound] Wait, how are you changing your username?
+      [404UsernameNotFound] I don’t have your account password, I don’t even know your name!
+      [404UsernameNotFound] Oh, I see.
+      [randint] Welcome aboard!
+      [randint] That guy’s been a little sensitive since someone tried to steal his credentials a few weeks ago.
+      [404UsernameNotFound] Got it.
+      [404UsernameNotFound] Sorry, whoever you are!
+      [404UsernameNotFound] I guess I’ll just go now…
+      [randint] o/")
+    elif n == 14:
+      print("[randint] /me notices a certain @HackItIfYouCan lurking about
+      [randint] A fascinating challenge.
+      [randint] Noodles…
+      [randint] I’ll file this down for another day.
+      [bluedog444] got it!")
+    elif n == 15:
+      print("[ResidentScientologist] Hello!
+      [ResidentScientologist] I’m here to spread the word of L. Ron Hubbard.
+      [randint] Yeah, no.
+      <ResidentScientologist has been shadowbanned by Konami.>
+      [FederalBureauofI] Don’t you think you’re getting a bit too trigger-happy?
+      [randint] Eh, newly-created account threatens spam. I’m fine with it.
+      [your username here:] sounds like someone’s having a rough day.
+      [your username here:] don’t worry, pal, i don’t bite.
+      [randint] @yourusernamehere:, don’t think about talking to me in person again.
+      [your username here:] sheesh, fine.
+      [your username here:] but if not me, you gotta talk to someone, buddy.
+      [your username here:] anyway, my break’s almost over. i’ve got to go.")
+    elif n == 16:
+      print("[Basilisk] Ready for the RPG yet?
+      [FederalBureauofI] Maybe tomorrow? Sorry, I haven’t slept since Wensday and I’m super tires.
+      [FederalBureauofI] *Wendesday
+      [FederalBureauofI] *tired
+      [FederalBureauofI] *Wednesday
+      [Basilisk] Jesus, man, go get some sleep.
+      [FederalBureauofI] Thanks
+      [Iridescent] :(
+      [Iridescent] Let’s shoot for Sunday.
+      [Basilisk] Nah, I’ve got church responsibilities then.
+      [Basilisk] Monday, maybe?
+      [Iridescent] Depends on the time…
+      [Iridescent] Let’s talk about this tomorrow.
+      [nyan_cat] can I join? :3
+      [Basilisk] Only if you never type ‘:3’ here again.
+      [nyan_cat] No deal >:3")
+    elif n == 17:
+      print("[Dimentio] /me arrives with a snap of his fingers
+      [Dimentio] And so I arrive, like a sudden windstorm at a kindergarten picnic!
+      [randint] Hello, and welcome!
+      [your username here:] dimentio persona, huh?
+      [your username here:] i’d be less annoyed if you weren’t just repeating text from in the game.
+      [your username here:] it makes for awfully dull conversation.
+      [Dimentio] …
+      [Dimentio] Ciao!
+      [your username here:] heh.
+      [randint] So long.")
+    elif n == 18:
+      print("[inomaK] I’ve returned.
+      [Basilisk] :o
+      [randint] O_O
+      [randint] Konami!
+      [inomaK] I have an announcement to make.
+      [inomaK] This entire chatroom has just been one big experiment.
+      [inomaK] We will now be moving over to the following chatroom:
+      <inomaK shared a temporary image.>
+      [randint] Ooh, interesting.
+      [randint] What’s the experiment?
+      [inomaK] It’s a little bit of doxxing practice. There have been exactly thirty accounts made on this site. Once the room has been abandoned, I will lock the files so that no more posts can be made. Then, I will make it possible to log into multiple accounts at once. If anyone manages to log into all thirty at once, they win the game.
+      [inomaK] Let the games begin!
+      [randint] Let the games begin! :D
+      [nyan_cat] @inomaK The link expired for me, could you post it again?
+      <inomaK shared a temporary image.>
+      [nyan_cat] Thanks!")
+    elif n == 19:
+      print("[Technetium] So.
+      [Technetium] You’ve found it.
+      [Technetium] The final thread.
+      [Technetium] Well.
+      [Technetium] Well well well.
+      [Technetium] Well well welly well well well welly welly well.
+      [Technetium] I suppose I ought to reward you.
+      [Technetium] If you type a valid username below, I will give you a codeword.
+      [Technetium] Type in the codeword and you will get a special hint.
+      [Technetium] Really, it essentially gives you the answer.
+      [Technetium] Anyway, the reason you’re probably here is because you’re missing a username or two.
+      [Technetium] Try this one out for size:
+      <Technetium shared a temporary image.>
+      [Technetium] Anyway, @DataMiner222 and I need to iron out a few bugs.
+      [Technetium] So, adios.")
+  elif x in file_name:
+    n = file_name.index[x]
+    files(name[n])
