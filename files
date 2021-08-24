@@ -1,0 +1,214 @@
+pg1 = 0
+pg2 = 0
+pg3 = 0
+pg4 = 0
+pg5 = 0
+pg6 = 0
+pg7 = 0
+pg8 = 0
+pg9 = 0
+pg10 = 0
+pg11 = 0
+pg12 = 0
+pg13 = 0
+pg14 = 0
+pg15 = 0
+pg16 = 0
+pg17 = 0
+pg18 = 0
+pg19 = 0
+pg20 = 0
+def files(x):
+  global pg1
+  global pg2
+  global pg3
+  global pg4
+  global pg5
+  global pg6
+  global pg7
+  global pg8
+  global pg9
+  global pg10
+  global pg11
+  global pg12
+  global pg13
+  global pg14
+  global pg15
+  global pg16
+  global pg17
+  global pg18
+  global pg19
+  global pg20
+  if x == "alpha":
+    if pg1 == 0:
+      print("Displaying file 1 of 20 (ALPHA). File renamed 'file1' for convenience.")
+      pg1 += 1
+    else:
+      print("Displaying file 1 of 20 (ALPHA).")
+    print("[Konami] The chatroom is set up. Let the games begin.
+    [Basilisk] Woohoo!
+    [randint] :D
+    [-] ... ..- .--.
+    [L’Erreur_Du_Parrier] Bonjour, existe-t-il une option pour changer de langue sur ce site?
+    [Konami] Je suis désolé, nous ne prenons pas en charge les traductions.
+    [Konami] Mais vous pouvez toujours taper votre langue, et nous pouvons la traduire nous-mêmes! 😊
+    [L’Erreur_Du_Parrier] D'accord, merci!
+    [Konami] J'espère que mon français va bien, je ne l'ai pas pris depuis le lycée 😅
+    [L’Erreur_Du_Parrier] Ne vous inquiétez pas, c'est bon!
+    [MikeRotch] was here
+    [FederalBureauofI] Hey, I’m part of the OG thread too!
+    [trollolol] was here
+    [Dimentio] leaves his mark
+    [harambe] was here
+    [cereal_killer] was here")
+  elif x == "file1":
+    if pg1 == 0:
+      print("File name not recognized.")
+    else:
+      print("Displaying file 1 of 20.
+      [Konami] The chatroom is set up. Let the games begin.
+      [Basilisk] Woohoo!
+      [randint] :D
+      [-] ... ..- .--.
+      [L’Erreur_Du_Parrier] Bonjour, existe-t-il une option pour changer de langue sur ce site?
+      [Konami] Je suis désolé, nous ne prenons pas en charge les traductions.
+      [Konami] Mais vous pouvez toujours taper votre langue, et nous pouvons la traduire nous-mêmes! 😊
+      [L’Erreur_Du_Parrier] D'accord, merci!
+      [Konami] J'espère que mon français va bien, je ne l'ai pas pris depuis le lycée 😅
+      [L’Erreur_Du_Parrier] Ne vous inquiétez pas, c'est bon!
+      [MikeRotch] was here
+      [FederalBureauofI] Hey, I’m part of the OG thread too!
+      [trollolol] was here
+      [Dimentio] leaves his mark
+      [harambe] was here
+      [cereal_killer] was here")
+  elif x == "sleep":
+    if pg2 == 0:
+      print("Displaying file 2 of 20 (SLEEP). File renamed 'file2' for convenience.")
+      pg2 += 1
+    else:
+      print("Displaying file 2 of 20 (SLEEP).")
+    print("[Konami] Anyway, my part is done, soo… see y’all later? Maybe?
+    [Konami] Or not.
+    [Basilisk] No, don’t leave us!
+    [Konami] I will always be with you!
+    [Konami] In fact, I just set my password to something *extremely* obvious so that you can impersonate me.
+    [Konami] Peace!
+    [randint] Something extremely obvious…
+    [randint] …Annnd I got it. :D
+    [Konami] /me is resurrected!
+    [Basilisk] Bittersweet victory ;c
+    [Konami] Now I have their password too c:
+    [Konami] :D
+    [Konami] konami gang!
+    [Konami] lmao really
+    [Konami] it was that simple
+    [Konami] it was like thirty tries before i got it")
+  elif x == "file2":
+    if pg2 == 0:
+      print("File name not recognized.")
+    else:
+      print("Displaying file 2 of 20.
+      [Konami] Anyway, my part is done, soo… see y’all later? Maybe?
+      [Konami] Or not.
+      [Basilisk] No, don’t leave us!
+      [Konami] I will always be with you!
+      [Konami] In fact, I just set my password to something *extremely* obvious so that you can impersonate me.
+      [Konami] Peace!
+      [randint] Something extremely obvious…
+      [randint] …Annnd I got it. :D
+      [Konami] /me is resurrected!
+      [Basilisk] Bittersweet victory ;c
+      [Konami] Now I have their password too c:
+      [Konami] :D
+      [Konami] konami gang!
+      [Konami] lmao really
+      [Konami] it was that simple
+      [Konami] it was like thirty tries before i got it")
+  elif x == "mystery":
+    if pg3 == 0:
+      print("Displaying file 3 of 20 (MYSTERY). File renamed 'file3' for convenience.")
+      pg3 += 1
+    else:
+      print("Displaying file 3 of 20 (MYSTERY).
+    print("[your username here:] ‘sup?
+    [your username here:] this place seems cool.
+    [randint] …How did you even type that username? It didn’t permit me to use a space.
+    [your username here:] i have my ways.
+    [randint] …
+    [your username here:] eh, i’ll tell you in person later.
+    [randint] …Do I know you…?
+    [your username here:] ¯\_(ツ)_/¯
+    [lazybones] ‘sup
+    [randint] @lazybones re: challenge: Is this seriously your only mention on this website? And what kind of hint do you have? This is going to be a bit more difficult than expected…")
+  elif x == "file3":
+    if pg3 == 0:
+      print("File name not recognized.")
+    else:
+      print("Displaying file 3 of 20.
+      [your username here:] ‘sup?
+      [your username here:] this place seems cool.
+      [randint] …How did you even type that username? It didn’t permit me to use a space.
+      [your username here:] i have my ways.
+      [randint] …
+      [your username here:] eh, i’ll tell you in person later.
+      [randint] …Do I know you…?
+      [your username here:] ¯\_(ツ)_/¯
+      [lazybones] ‘sup
+      [randint] @lazybones re: challenge: Is this seriously your only mention on this website? And what kind of hint do you have? This is going to be a bit more difficult than expected…")
+  elif x == "fury":
+    if pg4 == 0:
+      print("Displaying file 4 of 20 (FURY). File renamed 'file4' for convenience.")
+      pg4 += 1
+    else:
+      print("Displaying file 4 of 20 (FURY).")
+    print("[internallyscreaming] hey, whar’s up with lurklurk?
+    [randint] They change their onscreen username to communicate.
+    [internallyscreaming] *what’s
+    [internallyscreaming] oh, I see.
+    [internallyscreaming] @lurklurk whats ur password?
+    [internallyscreaming] fair point
+    [internallyscreaming] but
+    [internallyscreaming] id like to know
+    [internallyscreaming] that didnt work
+    [internallyscreaming] liae
+    [randint] It’s generally against common etiquette to try to make someone give you their password.
+    [internallyscreaming] fine")
+  elif x == "file4":
+    if pg4 == 0:
+      print("File name not recognized.")
+    else:
+      print("Displaying file 4 of 20.
+      [internallyscreaming] hey, whar’s up with lurklurk?
+      [randint] They change their onscreen username to communicate.
+      [internallyscreaming] *what’s
+      [internallyscreaming] oh, I see.
+      [internallyscreaming] @lurklurk whats ur password?
+      [internallyscreaming] fair point
+      [internallyscreaming] but
+      [internallyscreaming] id like to know
+      [internallyscreaming] that didnt work
+      [internallyscreaming] liae
+      [randint] It’s generally against common etiquette to try to make someone give you their password.
+      [internallyscreaming] fine")
+  elif x == "nostalgia":
+    if pg5 == 0:
+      print("Displaying file 5 of 20 (NOSTALGIA). File renamed 'file5' for convenience.")
+      pg5 += 1
+    else:
+      print("Displaying file 5 of 20 (NOSTALGIA).
+    print("[Basilisk] Anyone up for an RPG?
+    [Iridescent] Maybe later, that sounds fun!
+    [Basilisk] OK! c:
+    [FederalBureauofI] Count me in, too!
+    [Basilisk] Yay!")
+  elif x == "file5":
+    if pg5 == 0:
+      print("File name not recognized.")
+    else:
+      print("Displaying file 5 of 20.
+      [Basilisk] Anyone up for an RPG?
+      [Iridescent] Maybe later, that sounds fun!
+      [Basilisk] OK! c:
+      [FederalBureauofI] Count me in, too!
+      [Basilisk] Yay!")
