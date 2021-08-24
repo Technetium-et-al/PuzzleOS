@@ -212,3 +212,73 @@ def files(x):
       [Basilisk] OK! c:
       [FederalBureauofI] Count me in, too!
       [Basilisk] Yay!")
+  elif x == "fault":
+    if pg6 == 0:
+      print("Displaying file 6 of 20 (FAULT). File renamed 'file6' for convenience.")
+      pg6 += 1
+    else:
+      print("Displaying file 6 of 20 (FAULT).")
+    print("[Level_256] Wazzup?
+    [internallyscreaming] Howsyt!
+    [internallyscreaming] *howdy
+    [nyan_cat] Howsyt!
+    [internallyscreaming] shut up
+    [applebottomjeans] Howsyt!
+    [internallyscreaming] SHUTUPSHUTUPSHUTUP
+    [randint] Oh, look, now you’re externally screaming.")
+  elif x == "file6":
+    if pg6 == 0:
+      print("File name not recognized.")
+    else:
+      print("Displaying file 6 of 20."
+      [Level_256] Wazzup?
+      [internallyscreaming] Howsyt!
+      [internallyscreaming] *howdy
+      [nyan_cat] Howsyt!
+      [internallyscreaming] shut up
+      [applebottomjeans] Howsyt!
+      [internallyscreaming] SHUTUPSHUTUPSHUTUP
+      [randint] Oh, look, now you’re externally screaming.")
+  elif x == "family":
+    if pg7 == 0:
+      print("Displaying file 7 of 20 (FAMILY). File renamed 'file7' for convenience.")
+      pg7 += 1
+    else:
+      print("Displaying file 7 of 20 (FAMILY).")
+    print("[L’Erreur_Du_Parrier] Mon fils vient d'avoir neuf ans aujourd'hui!
+    [Basilisk] Congrats!
+    [Basilisk] Can we see a picture?
+    <L’Erreur_Du_Parrier shared a temporary photo>
+    [internallyscreaming] does ur son know english
+    [L’Erreur_Du_Parrier] Oui, il fréquente une école publique anglophone.
+    [internallyscreaming] i think i know him
+    [internallyscreaming] he goes to my school
+    [L’Erreur_Du_Parrier] O-O
+    [internallyscreaming] i think ill go say hi to him now
+    [randint] O_O
+    [Basilisk] This is awesome!
+    [L’Erreur_Du_Parrier] Mise à jour: Antoine est rentré à la maison et m'a dit qu'il avait eu une belle conversation avc quelqu'un qui s'appelait «criantintérieurement»!
+    [internallyscreaming] awesome
+    [Basilisk] 💜
+    [EtchingForAction] Beautiful.")
+  elif x == "file7":
+    if pg7 == 0:
+      print("File name not recognized.")
+    else:
+      print("Displaying file 7 of 20.
+      [L’Erreur_Du_Parrier] Mon fils vient d'avoir neuf ans aujourd'hui!
+      [Basilisk] Congrats!
+      [Basilisk] Can we see a picture?
+      <L’Erreur_Du_Parrier shared a temporary photo>
+      [internallyscreaming] does ur son know english
+      [L’Erreur_Du_Parrier] Oui, il fréquente une école publique anglophone.
+      [internallyscreaming] i think i know him
+      [internallyscreaming] he goes to my school
+      [L’Erreur_Du_Parrier] O-O
+      [internallyscreaming] i think ill go say hi to him now
+      [randint] O_O
+      [Basilisk] This is awesome!
+      [L’Erreur_Du_Parrier] Mise à jour: Antoine est rentré à la maison et m'a dit qu'il avait eu une belle conversation avc quelqu'un qui s'appelait «criantintérieurement»!
+      [internallyscreaming] awesome
+      [Basilisk] 💜
+      [EtchingForAction] Beautiful.
