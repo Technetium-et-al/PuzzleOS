@@ -8,26 +8,7 @@ page = [pg1, pg2, pg3, pg4, pg5, pg6, pg7, pg8, pg9, pg10, pg11, pg12, pg13, pg1
 letters = string.ascii_letters
 d = acc = dash = four = apple = basil = blue = bot = cereal = data = dim = etch = fed = hack = har = inom = int = irid = kona = err = lazy = level = lurk = mike = nyan = rand = res = tech = total = troll = x = your = pg1 = pg2 = pg3 = pg4 = pg5 = pg6 = pg7 = pg8 = pg9 = pg10 = pg11 = pg12 = pg13 = pg14 = pg15 = pg16 = pg17 = pg18 = pg19 = pg20 = 0
 def files(x):
-  global pg1
-  global pg2
-  global pg3
-  global pg4
-  global pg5
-  global pg6
-  global pg7
-  global pg8
-  global pg9
-  global pg10
-  global pg11
-  global pg12
-  global pg13
-  global pg14
-  global pg15
-  global pg16
-  global pg17
-  global pg18
-  global pg19
-  global pg20
+  global pg1, pg2, pg3, pg4, pg5, pg6, pg7, pg8, pg9, pg10, pg11, pg12, pg13, pg14, pg15, pg16, pg17, pg18, pg19, pg20
   if x in name:
     n = name.index[x]
     if page[n] = 0:
@@ -323,37 +304,7 @@ def hints():
   else:
     print("20. ")
 def password(x,y):
-	global acc
-	global dash
-	global four
-	global apple
-	global basil
-	global blue
-	global bot
-	global cereal
-	global dim
-	global data
-	global etch
-	global fed
-	global hack
-	global har
-	global inom
-	global int
-	global irid
-	global kona
-	global err
-	global lazy
-	global level
-	global lurk
-	global mike
-	global nyan
-	global rand
-	global res
-	global tech
-	global total
-	global troll
-	global x
-	global your
+	global acc, dash, four, apple, basil, blue, bot, cereal, dim, data, etch, fed, hack, har, inom, int, irid, kona, err, lazy, level, lurk, mike, nyan, ran, res, tech, total, troll, x, your
 	user = [“-”, “404UsernameNotFound”, “applebottomjeans”, “Basilisk”, “bluedog444”, “BotBot”, “cereal_killer”, “DataMine222”, “Dimentio”, “EtchingForAction”, “FederalBureauofI”, “HackItIfYouCan”, “harambe”, “inomaK”, “internallyscreaming”, “Iridescent”, “Konami”, “L’Erreur_De_Parrier”, “lazybones”, “Level_256”, “lurklurk”, “MikeRotch”, “nyan_cat”, “randint”, “ResidentScientologist”, “Technetium”, “totallyunsecuretest”, “trollolol”, “xkcd”, “your username here:”]
 	password = [“ihavenoremorse”, “notfound”, “bootswiththefur”, “hunter2”, “MordeTwi”, “nonepizzawithleftbeef”, “banjoandkazooie”, “thatsbepis”, “Masterofdimensionspleaserofcrowds”, “TrigonalPyramidal”, “1337”, “𰻝”, “listenkididonthavemuchtime”, “Let_the_games_begin”, “aaaaaaaaaaaaaaaa”, “BluePikmin1”, “upupdowndownleftrightleftrightba”, “Antoine8”, “password”, “butterfly”, “AOAP4SSW0RDN0TF0UND”, “candice”, “poptart”, “3155881748815209209628292540917153643678925903600”, “lronman”, “Osmium76”, “filler”, “~( 8(|)”, “1608Hoverboard”, “your password here:”]
 	point = [dash, four, apple, basil, blue, bot, cereal, data, dim, etch, fed, hack, har, inom, int, irid, kona, err, lazy, level, lurk, mike, nyan, rand, res, tech, total, troll, x, your]
