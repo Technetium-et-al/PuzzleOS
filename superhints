@@ -1,0 +1,61 @@
+def codeword_generator(x):
+  if x == "-":
+    print("the-hyphen-of-a-mushroom-allow-vegetative-growth")
+  elif x == "404UsernameNotFound":
+    print("press-any-key-to-restart")
+  elif x == "applebottomjeans":
+    print("fruit-flies-like-an-apple-bottom-jean")
+  elif x == "Basilisk":
+    print("U+FDD0")
+  elif x == "bluedog444":
+    print("can-we-pretend-give-each-other-different-names-we-would-build-a-rocket-ship-and-then-wed-fly-far-away")
+  elif x == "BotBot":
+    print("botbotbotbotbotbotbotbotbotbotbotbotbotbotbotbot")
+  elif x == "cereal_killer":
+    print("gluten-free-honey-bunches-of-goats")
+  elif x == "DataMine222":
+    print("this-is-a-randomly-generated-string-of-text")
+  elif x == "Dimentio":
+    print("two-gleaming-banjos-on-a-moonlit-stoop")
+  elif x == "EtchingForAction":
+    print("james-bond-and-the-centrifugal-force")
+  elif x == "FederalBureauofI":
+    print("central-intelligence-a")
+  elif x == "HackItIfYouCan":
+    print("said-the-person-who-got-hacked-within-the-next-thirty-six-hours")
+  elif x == "harambe":
+    print("rest-in-peace-legend")
+  elif x == "inomaK":
+    print("relooc-yna-ti-ekam-tnseod-sdrawkcab-eman-ruoy-gnitirw")
+  elif x == "internallyscreaming":
+    print("face-the-howling-void-and-howl-right-back")
+  elif x == "Iridescent":
+    print("glint-beetle")
+  elif x == "Konami":
+    print("theres-no-way-you-actually-need-a-hint-for-this")
+  elif x == "L'Erreur_Du_Parrier":
+    print("allons-enfants-de-la-patrie-le-jour-de-gloire-est-arrive")
+  elif x == "lazybones":
+    print("codeword")
+  elif x == "Level_256":
+    print("doomed-to-wander-a-fractured-shell-of-his-former-home-forever")
+  elif x == "lurklurk":
+    print("spooky-scary-skeletons")
+  elif x == "MikeRotch":
+    print("i-only-shop-at-suqma")
+  elif x == "nyan_cat":
+    print("what-state-of-matter-is-the-cats-rainbow-trail")
+  elif x == "randint":
+    print("eight-six-seven-five-three-oh-ni-i-ine")
+  elif x == "ResidentScientologist":
+    print("my-lord-and-savior-lives-in-my-nose")
+  elif x == "Technetium";
+    print("honorificabilitudinitatibus")
+  elif x == "trollolol":
+    print("ew-troll-boogers")
+  elif x == "xkcd":
+    print("barrel-part-one")
+  elif x == "your username here:"
+    print("your codeword here:")
+  else:
+    print("¯\_(ツ)_/¯")
