@@ -309,7 +309,7 @@ def password(x,y):
 	password = [“ihavenoremorse”, “notfound”, “bootswiththefur”, “hunter2”, “MordeTwi”, “nonepizzawithleftbeef”, “banjoandkazooie”, “thatsbepis”, “Masterofdimensionspleaserofcrowds”, “TrigonalPyramidal”, “1337”, “𰻝”, “listenkididonthavemuchtime”, “Let_the_games_begin”, “aaaaaaaaaaaaaaaa”, “BluePikmin1”, “upupdowndownleftrightleftrightba”, “Antoine8”, “password”, “butterfly”, “AOAP4SSW0RDN0TF0UND”, “candice”, “poptart”, “3155881748815209209628292540917153643678925903600”, “lronman”, “Osmium76”, “filler”, “~( 8(|)”, “1608Hoverboard”, “your password here:”]
 	point = [dash, four, apple, basil, blue, bot, cereal, data, dim, etch, fed, hack, har, inom, int, irid, kona, err, lazy, level, lurk, mike, nyan, rand, res, tech, total, troll, x, your]
 	if x in user:
-		x = user[n]
+		n = user.index[x]
 		if n == 26:
 			if total == 0:
 				acc += 1
