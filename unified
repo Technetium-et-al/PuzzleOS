@@ -1,0 +1,528 @@
+import keyword
+import random
+import string
+
+file_name = ["file1", "file2", "file3", "file4", "file5", "file6", "file7", "file8", "file9", "file10", "file11", "file12", "file13", "file14", "file15", "file16", "file17", "file18", "file19", "file20"]
+name = ["alpha", "sleep", "mystery", "fury", "nostalgia", "fault", "family", "fracture", "insanity", "wisdom", "infinity", "kindness", "genesis", "storm", "challenge", "headache", "sorrow", "jest", "omega", "technetium"]
+page = [pg1, pg2, pg3, pg4, pg5, pg6, pg7, pg8, pg9, pg10, pg11, pg12, pg13, pg14, pg15, pg16, pg17, pg18, pg19, pg20]
+letters = string.ascii_letters
+d = 0
+acc = 0
+dash = 0
+four = 0
+apple = 0
+basil = 0
+blue = 0
+bot = 0
+cereal = 0
+data = 0
+dim = 0
+etch = 0
+fed = 0
+hack = 0
+har = 0
+inom = 0
+int = 0
+irid = 0
+kona = 0
+err = 0
+lazy = 0
+level = 0
+lurk = 0
+mike = 0
+nyan = 0
+rand = 0
+res = 0
+tech = 0
+total = 0
+troll = 0
+x = 0
+your = 0
+pg1 = 0
+pg2 = 0
+pg3 = 0
+pg4 = 0
+pg5 = 0
+pg6 = 0
+pg7 = 0
+pg8 = 0
+pg9 = 0
+pg10 = 0
+pg11 = 0
+pg12 = 0
+pg13 = 0
+pg14 = 0
+pg15 = 0
+pg16 = 0
+pg17 = 0
+pg18 = 0
+pg19 = 0
+pg20 = 0
+def files(x):
+  global pg1
+  global pg2
+  global pg3
+  global pg4
+  global pg5
+  global pg6
+  global pg7
+  global pg8
+  global pg9
+  global pg10
+  global pg11
+  global pg12
+  global pg13
+  global pg14
+  global pg15
+  global pg16
+  global pg17
+  global pg18
+  global pg19
+  global pg20
+  if x in name:
+    n = name.index[x]
+    if page[n] = 0:
+      print("Displaying file %d of 20 (%s). File named 'file%d' for convenience." % (n + 1, x, n + 1))
+      page[n] += 1
+    else:
+      print("Displaying file %d of 20 (%s)." % (n + 1, x))
+    if n == 0:
+      print("[Konami] The chatroom is set up. Let the games begin.
+      [Basilisk] Woohoo!
+      [randint] :D
+      [-] ... ..- .--.
+      [L’Erreur_Du_Parrier] Bonjour, existe-t-il une option pour changer de langue sur ce site?
+      [Konami] Je suis désolé, nous ne prenons pas en charge les traductions.
+      [Konami] Mais vous pouvez toujours taper votre langue, et nous pouvons la traduire nous-mêmes! 😊
+      [L’Erreur_Du_Parrier] D'accord, merci!
+      [Konami] J'espère que mon français va bien, je ne l'ai pas pris depuis le lycée 😅
+      [L’Erreur_Du_Parrier] Ne vous inquiétez pas, c'est bon!
+      [MikeRotch] was here
+      [FederalBureauofI] Hey, I’m part of the OG thread too!
+      [trollolol] was here
+      [Dimentio] leaves his mark
+      [harambe] was here
+      [cereal_killer] was here")
+    elif n == 1:
+      print("[Konami] Anyway, my part is done, soo… see y’all later? Maybe?
+      [Konami] Or not.
+      [Basilisk] No, don’t leave us!
+      [Konami] I will always be with you!
+      [Konami] In fact, I just set my password to something *extremely* obvious so that you can impersonate me.
+      [Konami] Peace!
+      [randint] Something extremely obvious…
+      [randint] …Annnd I got it. :D
+      [Konami] /me is resurrected!
+      [Basilisk] Bittersweet victory ;c
+      [Konami] Now I have their password too c:
+      [Konami] :D
+      [Konami] konami gang!
+      [Konami] lmao really
+      [Konami] it was that simple
+      [Konami] it was like thirty tries before i got it")
+    elif n == 2:
+      print("[your username here:] ‘sup?
+      [your username here:] this place seems cool.
+      [randint] …How did you even type that username? It didn’t permit me to use a space.
+      [your username here:] i have my ways.
+      [randint] …
+      [your username here:] eh, i’ll tell you in person later.
+      [randint] …Do I know you…?
+      [your username here:] ¯\_(ツ)_/¯
+      [lazybones] ‘sup
+      [randint] @lazybones re: challenge: Is this seriously your only mention on this website? And what kind of hint do you have? This is going to be a bit more difficult than expected…")
+    elif n == 3:
+      print("[internallyscreaming] hey, whar’s up with lurklurk?
+      [randint] They change their onscreen username to communicate.
+      [internallyscreaming] *what’s
+      [internallyscreaming] oh, I see.
+      [internallyscreaming] @lurklurk whats ur password?
+      [internallyscreaming] fair point
+      [internallyscreaming] but
+      [internallyscreaming] id like to know
+      [internallyscreaming] that didnt work
+      [internallyscreaming] liae
+      [randint] It’s generally against common etiquette to try to make someone give you their password.
+      [internallyscreaming] fine")
+    elif n == 4:
+      print("[Basilisk] Anyone up for an RPG?
+      [Iridescent] Maybe later, that sounds fun!
+      [Basilisk] OK! c:
+      [FederalBureauofI] Count me in, too!
+      [Basilisk] Yay!")
+    elif n == 5:
+      print("[Level_256] Wazzup?
+      [internallyscreaming] Howsyt!
+      [internallyscreaming] *howdy
+      [nyan_cat] Howsyt!
+      [internallyscreaming] shut up
+      [applebottomjeans] Howsyt!
+      [internallyscreaming] SHUTUPSHUTUPSHUTUP
+      [randint] Oh, look, now you’re externally screaming.")
+    elif n == 6:
+      print("[L’Erreur_Du_Parrier] Mon fils vient d'avoir neuf ans aujourd'hui!
+      [Basilisk] Congrats!
+      [Basilisk] Can we see a picture?
+      <L’Erreur_Du_Parrier shared a temporary photo>
+      [internallyscreaming] does ur son know english
+      [L’Erreur_Du_Parrier] Oui, il fréquente une école publique anglophone.
+      [internallyscreaming] i think i know him
+      [internallyscreaming] he goes to my school
+      [L’Erreur_Du_Parrier] O-O
+      [internallyscreaming] i think ill go say hi to him now
+      [randint] O_O
+      [Basilisk] This is awesome!
+      [L’Erreur_Du_Parrier] Mise à jour: Antoine est rentré à la maison et m'a dit qu'il avait eu une belle conversation avc quelqu'un qui s'appelait «criantintérieurement»!
+      [internallyscreaming] awesome
+      [Basilisk] 💜
+      [EtchingForAction] Beautiful.")
+    elif n == 7:
+      print("[Basilisk] @Iridescent @FederalBureauofI Are you guys ready?
+      [FederalBureauofI] Nah, I gotta get back to work. Maybe tomorrow?
+      [Basilisk] Sure!
+      [Iridescent] :(
+      [Iridescent] I go on a camping trip tomorrow, I won’t be back until Tuesday.
+      [Basilisk] Don’t worry, we’ll figure it out. c:
+      [Iridescent] c:
+      [FederalBureauofI] c:")
+    elif n == 8:
+      print("[trollolol] lololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololololol
+      [randint] Welcome?
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      [FederalBureauofI] Please stop.
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      [randint] One second…
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      [trollolol] test
+      <trollolol has been shadowbanned by Konami.>
+      [Konami] I’m still worthy! :D
+      [FederalBureauofI] *applause*")
+    elif n == 9:
+      print("[-] .-- .... .- - / .. ... / - .... . / .- -. ... .-- . .-. / - --- / .-.. .. ..-. .
+      [randint] 42, of course.
+      [Iridescent] You can read Morse?
+      [randint] Yep.
+      [Iridescent] That’s cool! Can you tech me?
+      [Iridescent] *teach
+      [randint] Sure, just look at the patterns and memorize the letters that go next to them. :P
+      [xkcd] Here’s a chart to help you out:
+      <xkcd shared a temporary image.>
+      [Iridescent] Wow, did you make that yourself?
+      [Iridescent] Your handwriting is really nice :)
+      [xkcd] Thank you!
+      [Iridescent] Mine’s so terrible, I just copied this down and can’t tell the difference between lines and dashes anymore lol
+      [xkcd] Well, whatever works.
+      [Iridescent] I guess?")
+    elif n == 10:
+      print("[Basilisk] @randint How are you always online? You’re in like every thread on here.
+      [randint] It’s a full-time commitment.
+      [Basilisk] Do you even have a job?
+      [Basilisk] Or wait, let me guess, you’re too ‘enigmatic’ to tell me?
+      [randint] ¯\_(ツ)_/¯
+      [Basilisk] *grumbles*")
+    elif n == 11:
+      print("[randint] Lemme just check something out real quick…
+      [Konami] /me reappears!
+      [Konami] Just changed a bit of the library… and…
+      [totallyunsecuretest] /me is born
+      [Konami] Success!
+      [Konami] I’ve created a guest login for people who aren’t quite sure enough about this site to log in as an actual user.
+      [Konami] Hopefully this should encourage more activity.
+      [randint] /me transforms back")
+    elif n == 12:
+      print("[randint] Hey, I wonder if I can create bots on here.
+      [randint] Just a moment…
+      [Basilisk] :o
+      [randint] …And my library won’t cooperate.
+      [randint] This site’s structure is *ancient*.
+      [randint] I would actually need to make an account for a bot to exist.
+      [randint] /me has an idea…
+      [randint] Ta-da!
+      [BotBot] /me initiates
+      [randint] BotBot can take inputs and create bots from them using this syntax:
+      <randint shared a temporary image.>
+      [Basilisk] Jesus Christ, that’s some complicated syntax.
+      [Basilisk] This isn’t even legible.
+      [Basilisk] Noooo thank you.
+      [randint] ¯\_(ツ)_/¯")
+    elif n == 13:
+      print("[404UsernameNotFound] Hello!
+      [404UsernameNotFound] I’m new here.
+      [404UsernameNotFound] Wait, how are you changing your username?
+      [404UsernameNotFound] I don’t have your account password, I don’t even know your name!
+      [404UsernameNotFound] Oh, I see.
+      [randint] Welcome aboard!
+      [randint] That guy’s been a little sensitive since someone tried to steal his credentials a few weeks ago.
+      [404UsernameNotFound] Got it.
+      [404UsernameNotFound] Sorry, whoever you are!
+      [404UsernameNotFound] I guess I’ll just go now…
+      [randint] o/")
+    elif n == 14:
+      print("[randint] /me notices a certain @HackItIfYouCan lurking about
+      [randint] A fascinating challenge.
+      [randint] Noodles…
+      [randint] I’ll file this down for another day.
+      [bluedog444] got it!")
+    elif n == 15:
+      print("[ResidentScientologist] Hello!
+      [ResidentScientologist] I’m here to spread the word of L. Ron Hubbard.
+      [randint] Yeah, no.
+      <ResidentScientologist has been shadowbanned by Konami.>
+      [FederalBureauofI] Don’t you think you’re getting a bit too trigger-happy?
+      [randint] Eh, newly-created account threatens spam. I’m fine with it.
+      [your username here:] sounds like someone’s having a rough day.
+      [your username here:] don’t worry, pal, i don’t bite.
+      [randint] @yourusernamehere:, don’t think about talking to me in person again.
+      [your username here:] sheesh, fine.
+      [your username here:] but if not me, you gotta talk to someone, buddy.
+      [your username here:] anyway, my break’s almost over. i’ve got to go.")
+    elif n == 16:
+      print("[Basilisk] Ready for the RPG yet?
+      [FederalBureauofI] Maybe tomorrow? Sorry, I haven’t slept since Wensday and I’m super tires.
+      [FederalBureauofI] *Wendesday
+      [FederalBureauofI] *tired
+      [FederalBureauofI] *Wednesday
+      [Basilisk] Jesus, man, go get some sleep.
+      [FederalBureauofI] Thanks
+      [Iridescent] :(
+      [Iridescent] Let’s shoot for Sunday.
+      [Basilisk] Nah, I’ve got church responsibilities then.
+      [Basilisk] Monday, maybe?
+      [Iridescent] Depends on the time…
+      [Iridescent] Let’s talk about this tomorrow.
+      [nyan_cat] can I join? :3
+      [Basilisk] Only if you never type ‘:3’ here again.
+      [nyan_cat] No deal >:3")
+    elif n == 17:
+      print("[Dimentio] /me arrives with a snap of his fingers
+      [Dimentio] And so I arrive, like a sudden windstorm at a kindergarten picnic!
+      [randint] Hello, and welcome!
+      [your username here:] dimentio persona, huh?
+      [your username here:] i’d be less annoyed if you weren’t just repeating text from in the game.
+      [your username here:] it makes for awfully dull conversation.
+      [Dimentio] …
+      [Dimentio] Ciao!
+      [your username here:] heh.
+      [randint] So long.")
+    elif n == 18:
+      print("[inomaK] I’ve returned.
+      [Basilisk] :o
+      [randint] O_O
+      [randint] Konami!
+      [inomaK] I have an announcement to make.
+      [inomaK] This entire chatroom has just been one big experiment.
+      [inomaK] We will now be moving over to the following chatroom:
+      <inomaK shared a temporary image.>
+      [randint] Ooh, interesting.
+      [randint] What’s the experiment?
+      [inomaK] It’s a little bit of doxxing practice. There have been exactly thirty accounts made on this site. Once the room has been abandoned, I will lock the files so that no more posts can be made. Then, I will make it possible to log into multiple accounts at once. If anyone manages to log into all thirty at once, they win the game.
+      [inomaK] Let the games begin!
+      [randint] Let the games begin! :D
+      [nyan_cat] @inomaK The link expired for me, could you post it again?
+      <inomaK shared a temporary image.>
+      [nyan_cat] Thanks!")
+    elif n == 19:
+      print("[Technetium] So.
+      [Technetium] You’ve found it.
+      [Technetium] The final thread.
+      [Technetium] Well.
+      [Technetium] Well well well.
+      [Technetium] Well well welly well well well welly welly well.
+      [Technetium] I suppose I ought to reward you.
+      [Technetium] If you type a valid username below, I will give you a codeword.
+      [Technetium] Type in the codeword and you will get a special hint.
+      [Technetium] Really, it essentially gives you the answer.
+      [Technetium] Anyway, the reason you’re probably here is because you’re missing a username or two.
+      [Technetium] Try this one out for size:
+      <Technetium shared a temporary image.>
+      [Technetium] Anyway, @DataMiner222 and I need to iron out a few bugs.
+      [Technetium] So, adios.")
+  elif x in file_name:
+    n = file_name.index[x]
+    files(name[n])
+def hints():
+  print("1. The Beginning.
+  2. An image of death.
+  3. An unknown.
+  4. Wrath.
+  5. Heartache for a time long gone.
+  6. Caused by the shaking Earth.
+  7. Can be found or born into.
+  8. Webs on glass.
+  9. Becomes an isolated mind.
+  10. Sought by the wise.
+  11. Now and forever.
+  12. An act of empathy.
+  13. A new beginning.
+  14. Calm or violent.
+  15. Sought by rivals.
+  16. Splitting.
+  17. Inevitably follows joy.
+  18. Humorous truth.
+  19. The End.")
+  if pg1 == 1 and pg2 == 1 and pg3 == 1 and pg4 == 1 and pg5 == 1 and pg6 == 1 and pg7 == 1 and pg8 == 1 and pg9 == 1 and pg10 == 1 and pg11 == 1 and pg12 == 1 and pg13 == 1 and pg14 == 1 and pg15 == 1 and pg16 == 1 and pg17 == 1 and pg18 == 1 and pg19 == 1:
+    print("20. Narcissism.")
+  else:
+    print("20. ")
+def password(x,y):
+	global acc
+	global dash
+	global four
+	global apple
+	global basil
+	global blue
+	global bot
+	global cereal
+	global dim
+	global data
+	global etch
+	global fed
+	global hack
+	global har
+	global inom
+	global int
+	global irid
+	global kona
+	global err
+	global lazy
+	global level
+	global lurk
+	global mike
+	global nyan
+	global rand
+	global res
+	global tech
+	global total
+	global troll
+	global x
+	global your
+	user = [“-”, “404UsernameNotFound”, “applebottomjeans”, “Basilisk”, “bluedog444”, “BotBot”, “cereal_killer”, “DataMine222”, “Dimentio”, “EtchingForAction”, “FederalBureauofI”, “HackItIfYouCan”, “harambe”, “inomaK”, “internallyscreaming”, “Iridescent”, “Konami”, “L’Erreur_De_Parrier”, “lazybones”, “Level_256”, “lurklurk”, “MikeRotch”, “nyan_cat”, “randint”, “ResidentScientologist”, “Technetium”, “totallyunsecuretest”, “trollolol”, “xkcd”, “your username here:”]
+	password = [“ihavenoremorse”, “notfound”, “bootswiththefur”, “hunter2”, “MordeTwi”, “nonepizzawithleftbeef”, “banjoandkazooie”, “thatsbepis”, “Masterofdimensionspleaserofcrowds”, “TrigonalPyramidal”, “1337”, “𰻝”, “listenkididonthavemuchtime”, “Let_the_games_begin”, “aaaaaaaaaaaaaaaa”, “BluePikmin1”, “upupdowndownleftrightleftrightba”, “Antoine8”, “password”, “butterfly”, “AOAP4SSW0RDN0TF0UND”, “candice”, “poptart”, “3155881748815209209628292540917153643678925903600”, “lronman”, “Osmium76”, “filler”, “~( 8(|)”, “1608Hoverboard”, “your password here:”]
+	point = [dash, four, apple, basil, blue, bot, cereal, data, dim, etch, fed, hack, har, inom, int, irid, kona, err, lazy, level, lurk, mike, nyan, rand, res, tech, total, troll, x, your]
+	if x in user:
+		x = user[n]
+		if n == 26:
+			if total == 0:
+				acc += 1
+				print(“Congratulations! You have unlocked totallyunsecuretest’s account. Accounts accessed: %d” % acc)
+				total += 1
+			elif total == 1:
+				print(“You are already signed into this account.”)
+			else:
+				print(“Hm? How did this happen? An error must have occurred. Technetium will get right on this to fix it up. That is, if you didn’t *cause* the error…”)
+		elif n == 7:
+			if y == “thatsbepis”:
+				if data == 0:
+					acc += 1
+					print(“Congratu       ! You have   locked “ + “ “.join(random.choice(letters) for i in range(12)) + “‘s account. Accounts accessed: %d” % acc)
+					data += 1
+				elif data == 1:
+					print(“You are already bepis.”)
+				else:
+					print(“HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA”)
+			else:
+				print(“No”)
+		elif n == 9:
+			if y == “TrigonalPyramidal”:
+				if etch == 0:
+					acc += 1
+					print(“Congratulations! You have unlocked EtchingForAction’s account. Accounts accessed: %d” % acc)
+					etch += 1
+				elif etch == 1:
+					print(“You are already signed into this account.”)
+				else:
+					print(“Hm? How did this happen? An error must have occurred. Technetium will get right on this to fix it up. That is, if you didn’t *cause* the error…”)
+			elif y == “Tetrahedral”:
+				print(“Shut the fuck up, you motherfucker, you think you’re so fucking smart with your fucking electron geometry, grow the fuck up and use molecular geometry LIKE A REAL FUCKING MAN.”)
+				if etch == 1:
+					acc = acc - 1
+					etch = 0
+					print(“Oh, and you’re logged out of this account.”)
+			else:
+				print(“Invalid password.”)
+		else:
+			if y == password[n]:
+				if point[n] == 0:
+					acc += 1
+					print(“Congratulations! You have unlocked %s’s account. Accounts accessed: %d” %  (user[n], acc))
+					point[n] += 1
+				elif point[n] == 1:
+					print(“You are already signed into this account.”)
+				else:					
+					print(“Hm? How did this happen? An error must have occurred. Technetium will get right on this to fix it up. That is, if you didn’t *cause* the error…”)
+			else:
+				print(“Invalid password.”)
+	else:
+		print(“Username not recognized.”)
+def hint(x):
+  global d
+  if x == "-":
+    print("Hint: Yes, it's a Morse pun.")
+  elif x == "404UsernameNotFound":
+    print("Hint: password not found")
+  elif x == "applebottomjeans":
+    print("Hint: the whole club was looking at her")
+  elif x == "Basilisk":
+    print("Hint: ******* (bash around the bush!)")
+  elif x == "bluedog444":
+    print("Hint: I could really use a wish right now")
+  elif x == "BotBot":
+    print("Hint: My favorite pizza.")
+  elif x == "cereal_killer":
+    print("Hint: my main")
+  elif x == "DataMine222":
+    if d % 2 == 0:
+      print("Hint: You know what I hate?")
+      d += 1
+    else:
+      print("Hint: The taste, the smell, the texture…")
+      d += 1
+  elif x == "Dimentio":
+    print("Hint: _ _ _… _ _ _… I am… Dimentio!")
+  elif x == "EtchingForAction":
+    print("Hint: Shape of NH3")
+  elif x == "FederalBureauofI":
+    print("Hint: l33t hack3r >:3")
+  elif x == "HackItIfYouCan":
+    print("Hint: password must contain shaanxi noodles")
+  elif x == "harambe":
+    print("Hint: le meme")
+  elif x == "inomaK":
+    print("Hint: You'll never figure it out. Give up.")
+  elif x == "internallyscreaming":
+    print("Hint: there's sixteen")
+  elif x == "Iridescent":
+    print("Hint: The best Pikmin, and its obvious associated number.")
+  elif x == "Konami":
+    print("Hint: Konami")
+  elif x == "L'Erreur_Du_Parrier":
+    print("Hint: nom et age du fils 2011")
+  elif x == "lazybones":
+    print("Hint: you know.")
+  elif x == "Level_256":
+    print("Hint: Is this a pigeon?")
+  elif x == "lurklurk":
+    print("Hint: boo")
+  elif x == "MikeRotch":
+    print("Hint: ****fitinyomouth")
+  elif x == "nyan_cat":
+    print("Hint: the most delicious snack")
+  elif x == "randint":
+    print("Hint: Start from #314, including 3. Last digits are 00")
+  elif x == "ResidentScientologist":
+    print("Hint: Two superhero names combined into one")
+  elif x == "trollolol":
+    print("Hint: d'oh")
+  elif x == "xkcd":
+    print("Hint: 1608**********")
+  elif x == "your username here:"
+    print("your security question")
